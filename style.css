@@ -1,0 +1,80 @@
+body{
+	background-color: black;	
+	color: white;
+	margin: 0 !important;
+	font-family: 'Oxygen Mono', monospace;
+
+}
+
+#container{
+	font-size: 25px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#ghostsNav{
+
+	width: 364px;
+	height: 600px;
+
+	float:left;
+}
+
+#ghostsNav img {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#playersNav{
+	
+	width: 364px;
+	height: 600px;
+	float:left;
+}
+
+#playersNav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#board{
+	width: 605px;
+	min-height: 560px;
+	float:left;
+}
+
+.boardImages{
+	border-radius: 15px;
+}
+
+.casualTile{
+	margin: 5px;
+	width: 70px;
+	height:70px;
+	border: 3px solid white;
+	border-radius: 15px;
+	float:left;
+}
+.nearbyTile{
+	margin: 5px;
+	width: 70px;
+	height:70px;
+	border: 3px solid white;
+	border-radius: 15px;
+	float:left;
+}
+
+.nearbyTile:hover{
+	background-color: #4f4f4f;
+	border: 3px solid white;
+	cursor: pointer;
+}
+.casualTile:hover{
+	background-color: #c64545;
+	border: 3px solid #ea2020;
+	cursor: pointer;
+}
